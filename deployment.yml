@@ -21,7 +21,7 @@ spec:
             - name: http
               containerPort: 8080
       imagePullSecrets:
-      - name: docker-config              
+      - name: docker-reg          
               
 ---
 apiVersion: v1
